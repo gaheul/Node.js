@@ -7,7 +7,7 @@ http.createServer((req,res)=>{
             console.log(err);
         }else{
             res.writeHead(200,{'content-Type' : 'image/png'});
-            res.end(data);//data=> test.html
+            res.end(data);//data=> node.png
         }
     })
     }).listen(3000,()=>{console.log('이미지 서버 실행중...')}); //port : 경로
@@ -18,7 +18,7 @@ http.createServer((req,res)=>{
             console.log(err);
         }else{
             res.writeHead(200,{'content-Type' : 'audio/mp3'});
-            res.end(data);//data=> test.html
+            res.end(data);//data=> sunny.mp3
           }
     })
     }).listen(3001,()=>{console.log('사운드 서버 실행중...')});
