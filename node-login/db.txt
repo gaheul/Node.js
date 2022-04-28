@@ -1,0 +1,2 @@
+db.member.find({$or:[{'userid':'apple'},{'userid':'banana'}]}).pretty();
+    db.member.find({$and:[{'gender':'여자'},{point:{$gte:1700}}]}).pretty();
