@@ -1,0 +1,20 @@
+html 
+    head 
+        title 사용자 정보보기
+    body 
+        #header 
+            h2 사용자 아이디 : #{userid}
+
+        #header 
+            h2 사용자 이름 : #{name}
+            p = desc
+            hr
+        .article
+            a(href="http://www.naver.com", alt="네이버")네이버이동
+            hr
+        .for
+            -for(let i=0; i<10; i++){
+                p
+                a(href="http://localhost:3000")사이트 이동
+            - }
+    
