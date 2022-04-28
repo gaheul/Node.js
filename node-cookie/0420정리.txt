@@ -1,0 +1,5 @@
+cookie-parser모듈
+cookie -> 사용자정보
+
+설치
+npm i cookie-parser
